@@ -1,15 +1,6 @@
-import styled from "styled-components";
 import logoImg from "../../assets/logo-default.svg";
+import { Image, Wrapper } from "./styled";
 
-const Wrapper = styled.div`
-  width: 100px;
-  height: 28px;
-`;
-
-const Image = styled.img`
-  object-fit: contain;
-  width: 100%;
-`;
 
 export function Logo() {
   return (

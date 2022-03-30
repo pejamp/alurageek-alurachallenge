@@ -15,4 +15,7 @@ export const Box = styled.button`
   @media screen and (min-width: 768px) {
     padding: 12px 64px;
   }
+  @media screen and (min-width: 1024px) {
+    padding: 16px 70px;
+  }
 `;

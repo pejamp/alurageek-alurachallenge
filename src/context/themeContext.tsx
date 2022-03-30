@@ -9,6 +9,7 @@ const theme = {
   white: "#FFFFFF",
   black100: "#464646",
   black50: "#A2A2A2",
+  black05: "#F5F5F5",
 };
 
 interface ThemeProps {

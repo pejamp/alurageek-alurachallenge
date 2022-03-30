@@ -1,14 +1,35 @@
 import { Button } from "../../components/Button";
 import { Logo } from "../../components/Logo";
-import { SearchBar } from "../../components/SearchBar";
-import { Wrapper } from "./styled";
+import { SearchButton } from "../../components/SearchButton";
+import { SearchInput } from "../../components/SearchInput";
+import { Box, Flex, Wrapper } from "./styled";
+import searchIcon from '../../assets/icons/search.svg';
+import closeIcon from '../../assets/icons/close-line.svg';
+import { useState } from "react";
 
 export function Header() {
+  const [visible, setVisible] = useState(false);
+
   return (
     <Wrapper>
-      <Logo />
-      <Button>Login</Button>
-      <SearchBar />
+      <Flex>
+        <Logo />
+        <SearchInput invisibleMobile />
+      </Flex>
+      {visible && 
+        <Box>
+          <SearchInput />
+          <SearchButton icon={closeIcon} onHandleClick={() => setVisible(!visible)} />
+        </Box>
+      }
+      <Button>
+        Login
+      </Button>
+      <SearchButton 
+        invisibleDesktop
+        icon={searchIcon} 
+        onHandleClick={() => setVisible(!visible)}
+      />
     </Wrapper>
   );
 }
