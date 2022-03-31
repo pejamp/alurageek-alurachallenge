@@ -1,13 +1,16 @@
+import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 import { Link } from "../../components/Link";
 import { Logo } from "../../components/Logo";
+import { Textarea } from "../../components/Textarea";
+import { Title } from "../../components/Title";
 import { Bottom, Container, Flex, Links, Text, Top } from "./styled";
 
 export function Footer() {
   return (
     <Container>
       <Top>
-        <Flex>
+        <Flex align={"center"} className={"row"}>
           <Logo footer />
           <Links>
             <Link goto="#">Quem somos nós</Link>
@@ -18,7 +21,14 @@ export function Footer() {
             <Link goto="#">Anuncie aqui</Link>
           </Links>
         </Flex>
-        <Input />
+        <Flex align={"left"} spacing={"8px"}>
+          <Title level={3}>Fale conosco</Title>
+          <Flex>
+            <Input />
+            <Textarea />
+          </Flex>
+          <Button fill>Enviar mensagem</Button>
+        </Flex>
       </Top>
       <Bottom>
         <Text>Desenvolvido por Pedro Rodrigues</Text>

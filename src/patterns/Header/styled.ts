@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
+width: 100%;
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -12,12 +13,12 @@ export const Wrapper = styled.header`
   @media screen and (min-width: 768px) {
     padding: 1rem 2rem;
     grid-template-columns: 1fr auto;
-    //gap: 8.375rem;
   }
   @media screen and (min-width: 1024px) {
-    padding: 2rem 9.5rem;
+    padding: 2rem 0;
     grid-template-columns: 1fr auto;
-    //gap: 8.375rem;
+    max-width: 1136px;
+    margin: 0 auto;
   }
 `;
 
