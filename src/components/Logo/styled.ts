@@ -8,6 +8,11 @@ export const Wrapper = styled.div`
     width: 176px;
     height: 50px;
   }
+
+  &.footer {
+    width: 176px;
+    height: 50px;
+  }
 `;
 
 export const Image = styled.img`
