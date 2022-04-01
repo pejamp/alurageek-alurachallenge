@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-width: 100%;
+  width: 100%;
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -22,7 +22,7 @@ width: 100%;
   }
 `;
 
-export const Box = styled.div`
+export const BoxSearch = styled.div`
   position: absolute;
   top: 0;
   left: 0;
@@ -39,4 +39,15 @@ export const Flex = styled.div`
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 2rem;
+`;
+
+export const Box = styled.div`
+  width: 133px;
+
+  @media screen and (min-width: 768px) {
+    width: 166px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 182px;
+  }
 `;

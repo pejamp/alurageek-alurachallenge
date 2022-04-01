@@ -4,7 +4,7 @@ import { Link } from "../../components/Link";
 import { Logo } from "../../components/Logo";
 import { Textarea } from "../../components/Textarea";
 import { Title } from "../../components/Title";
-import { Bottom, Container, Flex, Links, Text, Top } from "./styled";
+import { Bottom, Box, Container, Flex, Links, Text, Top } from "./styled";
 
 export function Footer() {
   return (
@@ -27,7 +27,9 @@ export function Footer() {
             <Input />
             <Textarea />
           </Flex>
-          <Button fill>Enviar mensagem</Button>
+          <Box>
+            <Button fill>Enviar mensagem</Button>
+          </Box>
         </Flex>
       </Top>
       <Bottom>

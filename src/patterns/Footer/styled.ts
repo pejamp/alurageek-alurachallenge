@@ -73,3 +73,11 @@ export const Text = styled.span`
   font-weight: 500;
   line-height: 19px;
 `;
+
+export const Box = styled.div`
+  width: 151px;
+
+  @media screen and (min-width: 1024px) {
+    width: 165px;
+  }
+`;
