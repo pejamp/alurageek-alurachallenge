@@ -4,11 +4,12 @@ interface TitleProps {
   children: string;
   level?: number;
   highlight?: boolean;
+  section?: boolean;
 }
 
-export function Title({ level, children, highlight } :TitleProps) {
+export function Title({ level, children, highlight, section } :TitleProps) {
   return (
-    <Heading level={level} className={highlight ? 'highlight' : ''}>
+    <Heading level={level} className={`${highlight ? 'highlight' : ''} ${section ? 'section' : ''}`}>
       {children}
     </Heading>
   );

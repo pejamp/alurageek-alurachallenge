@@ -20,6 +20,10 @@ export const Heading = styled.div.attrs<Props>(({ level }) => ({
       line-height: 61px;
     }
   }
+
+  &.section {
+    font-size: 1.375rem;
+  }
 `;
 
 Heading.defaultProps = {
