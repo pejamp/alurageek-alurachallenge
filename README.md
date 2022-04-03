@@ -11,7 +11,6 @@
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
-    <img alt="GitHub" src="https://img.shields.io/github/license/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
 </p>
 
 <h1 align="center">
@@ -55,10 +54,6 @@ O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## 💻 Projeto
 - [Acesse o site AluraGeek](https://alurageek-alurachallenge.vercel.app/)
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ## ✒️ Author
 
