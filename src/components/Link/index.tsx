@@ -1,8 +1,8 @@
 import { Wrapper } from "./styled";
 
 interface LinkProps {
-  children: string;
-  goto: string;
+  children: any;
+  goto: string | "#";
   section?: boolean;
 }
 

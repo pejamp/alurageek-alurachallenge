@@ -5,6 +5,20 @@ import figureImg from "../assets/stormtrooper-figure.jpg";
 import babyImg from "../assets/baby-yoda.jpg";
 import kyloImg from "../assets/kylo-figure.jpg";
 
+import xboxImg from "../assets/xbox-one-white-controller.jpg"
+import ps5Img from "../assets/ps5-white-with-controller.jpg"
+import nesImg from "../assets/nes-console.jpg"
+import switchImg from "../assets/switch-controllers.jpg"
+import oneImg from "../assets/xbox-one-white-controller.jpg"
+import gameboyImg from "../assets/gameboy.jpg"
+
+import atariImg from "../assets/atari-shirt.jpg"
+import shirtImg from "../assets/nes-shirt.jpg"
+import sonicImg from "../assets/sonic-tails-statue.jpg"
+import controllersImg from "../assets/switch-controllers.jpg"
+import pinkImg from "../assets/pink-clock-radio.jpg"
+import pikachuImg from "../assets/pikachu-plush.jpg"
+
 export const starwars = [
   {
     image: stormtrooperImg,
@@ -28,42 +42,42 @@ export const starwars = [
 
 export const consoles = [
   {
-    image: "../assets/xbox-one-white-controller.jpg"
+    image: xboxImg,
   },
   {
-    image: "../assets/ps5-white-with-controller.jpg"
+    image: ps5Img,
   },
   {
-    image: "../assets/nes-console.jpg"
+    image: nesImg,
   },
   {
-    image: "../assets/switch-controllers.jpg"
+    image: switchImg,
   },
   {
-    image: "../assets/xbox-one-white-controller.jpg"
+    image: oneImg,
   },
   {
-    image: "../assets/gameboy.jpg"
+    image: gameboyImg,
   },
 ]
 
 export const diversos = [
   {
-    image: "../assets/atari-shirt.jpg"
+    image: atariImg,
   },
   {
-    image: "../assets/nes-shirt.jpg"
+    image: shirtImg,
   },
   {
-    image: "../assets/sonic-tails-statue.jpg"
+    image: sonicImg,
   },
   {
-    image: "../assets/switch-controllers.jpg"
+    image: controllersImg,
   },
   {
-    image: "../assets/pink-clock-radio.jpg"
+    image: pinkImg,
   },
   {
-    image: "../assets/pikachu-plush.jpg"
+    image: pikachuImg,
   },
 ]

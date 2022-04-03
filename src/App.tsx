@@ -17,9 +17,21 @@ function App() {
         <Header />
         <Banner backgroundImage={bannerImg} />
         <Section>
-          <SectionHeader />
+          <SectionHeader name="Star Wars" linkHref="#" />
           <Grid>
-            {starwars.map(star => <Card cardImage={star.image} />)}
+            {starwars.map((star, index) => <Card key={index} cardImage={star.image} />)}
+          </Grid>
+        </Section>
+        <Section>
+          <SectionHeader name="Consoles" linkHref="#" />
+          <Grid>
+            {consoles.map((console, index) => <Card key={index} cardImage={console.image} />)}
+          </Grid>
+        </Section>
+        <Section>
+          <SectionHeader name="Diversos" linkHref="#" />
+          <Grid>
+            {diversos.map((diverso, index) => <Card key={index} cardImage={diverso.image} />)}
           </Grid>
         </Section>
         <Footer />

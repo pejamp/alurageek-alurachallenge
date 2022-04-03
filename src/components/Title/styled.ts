@@ -23,6 +23,10 @@ export const Heading = styled.div.attrs<Props>(({ level }) => ({
 
   &.section {
     font-size: 1.375rem;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 2rem;
+    }
   }
 `;
 

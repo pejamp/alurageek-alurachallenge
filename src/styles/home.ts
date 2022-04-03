@@ -12,4 +12,11 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 `;
