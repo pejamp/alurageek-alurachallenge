@@ -8,10 +8,10 @@
 </h4>
 
 <p align="center">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pejamp/NLW-Together-letmeask?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/pejamp/NLW-Together-letmeask?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pejamp/NLW-Together-letmeask?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
-    <img alt="GitHub" src="https://img.shields.io/github/license/pejamp/NLW-Together-letmeask?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
+    <img alt="GitHub" src="https://img.shields.io/github/license/pejamp/alurageek-alurachallenge?color=6AD1FF&style=for-the-badge&labelColor=0A2533">
 </p>
 
 <h1 align="center">
@@ -23,7 +23,7 @@
 </h3>
 
 # AluraGeek <img src="./src/assets/logo-header.svg" width="28" alt="logo icon">
-A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital. 🚀
+A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital.
 
 ## 🧪 Tecnologias
 
@@ -54,7 +54,7 @@ $ npm run dev
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## 💻 Projeto
-- [Acesse o site AluraGeek]()
+- [Acesse o site AluraGeek](https://alurageek-alurachallenge.vercel.app/)
 
 ## 📝 License
 
