@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  width: 100%;
   position: relative;
   padding: 20px 12px 0;
   background-color: ${({ theme }) => theme.white};
@@ -48,5 +49,6 @@ export const LabelStyled = styled.label`
   display: block;
   transition: 0.2s;
   font-size: 0.75rem;
+  text-transform: capitalize;
   color: ${({ theme }) => theme.black50};
 `;

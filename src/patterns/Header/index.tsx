@@ -6,6 +6,7 @@ import { Box, BoxSearch, Flex, Wrapper } from "./styled";
 import searchIcon from '../../assets/icons/search.svg';
 import closeIcon from '../../assets/icons/close-line.svg';
 import { useState } from "react";
+import { Link } from "../../components/Link";
 
 export function Header() {
   const [visible, setVisible] = useState(false);
@@ -13,7 +14,7 @@ export function Header() {
   return (
     <Wrapper>
       <Flex>
-        <Logo />
+        <Link goto="/"><Logo /></Link>
         <SearchInput invisibleMobile />
       </Flex>
       {visible && 

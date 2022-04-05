@@ -15,10 +15,8 @@ export const Wrapper = styled.header`
     grid-template-columns: 1fr auto;
   }
   @media screen and (min-width: 1024px) {
-    padding: 2rem 0;
+    padding: 2rem calc((100% - 1136px) / 2);
     grid-template-columns: 1fr auto;
-    max-width: 1136px;
-    margin: 0 auto;
   }
 `;
 

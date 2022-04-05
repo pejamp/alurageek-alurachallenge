@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { ThemeProvider } from "styled-components";
 
 const theme = {
-  background: "#E5E5E5",
+  background: "#F5F5F5",
   darkBlue: "#2A7AE4",
   mediumBlue: "#5595E9",
   lightBlue: "#D4E4FA",

@@ -1,10 +1,16 @@
 import { InputStyled, LabelStyled, Wrapper } from "./styled";
 
-export function Input() {
+interface InputProps {
+  name: string;
+  placeholder: string;
+  type: string;
+}
+
+export function Input(props: InputProps) {
   return (
     <Wrapper>
-      <InputStyled placeholder="Escreva seu nome..." id="name" />
-      <LabelStyled htmlFor="name" className="labelClass">Nome</LabelStyled>
+      <InputStyled id={props.name} name={props.name} type={props.type} placeholder={props.placeholder} />
+      <LabelStyled htmlFor={props.name} className="labelClass">{props.name}</LabelStyled>
     </Wrapper>
   );
 }
