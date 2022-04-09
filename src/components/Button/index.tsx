@@ -7,7 +7,7 @@ interface ButtonProps {
 
 export function Button({ children, fill }: ButtonProps) {
   return (
-    <Box className={fill ? 'fill' : ''}>
+    <Box className={fill ? 'fill' : ''} type="submit">
       {children}
     </Box>
   );

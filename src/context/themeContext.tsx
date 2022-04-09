@@ -9,6 +9,7 @@ const theme = {
   superLightBlue: "#EAF2FD",
   white: "#FFFFFF",
   black100: "#464646",
+  black80: "#6B6B6B",
   black50: "#A2A2A2",
   black30: "#C8C8C8",
   black05: "#F5F5F5",

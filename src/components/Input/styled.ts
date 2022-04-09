@@ -49,6 +49,5 @@ export const LabelStyled = styled.label`
   display: block;
   transition: 0.2s;
   font-size: 0.75rem;
-  text-transform: capitalize;
   color: ${({ theme }) => theme.black50};
 `;

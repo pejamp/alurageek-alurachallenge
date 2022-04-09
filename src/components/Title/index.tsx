@@ -5,12 +5,20 @@ interface TitleProps {
   level?: number;
   highlight?: boolean;
   section?: boolean;
+  product?: boolean;
 }
 
-export function Title({ level, children, highlight, section } :TitleProps) {
+export function Title({ level, ...props } :TitleProps) {
   return (
-    <Heading level={level} className={`${highlight ? 'highlight' : ''} ${section ? 'section' : ''}`}>
-      {children}
+    <Heading 
+      level={level} 
+      className={`${props.highlight ? 'highlight' : ''} 
+                  ${props.section ? 'section' : ''}
+                  ${props.product ? 'product' : ''}
+                  `
+                }
+    >
+      {props.children}
     </Heading>
   );
 }

@@ -6,6 +6,8 @@ import { ThemeDefault } from "./context/themeContext";
 import { Footer } from "./patterns/Footer";
 import { Header } from "./patterns/Header";
 import { Login } from "./routes/Login";
+import { NewProduct } from "./routes/NewProduct";
+import { Product } from "./routes/Product";
 import { GlobalStyle } from "./styles/global";
 
 ReactDOM.render(
@@ -16,6 +18,8 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/new-product" element={<NewProduct />} />
         </Routes>
         <Footer />
       </BrowserRouter>

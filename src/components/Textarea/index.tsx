@@ -1,9 +1,13 @@
 import { TextareaStyled, Wrapper } from "./styled";
 
-export function Textarea() {
+interface TextareaProps {
+  placeholder?: string;
+}
+
+export function Textarea({ placeholder }: TextareaProps) {
   return (
     <Wrapper>
-      <TextareaStyled placeholder="Escreva sua mensagem..." />
+      <TextareaStyled placeholder={placeholder} />
     </Wrapper>
   );
 }

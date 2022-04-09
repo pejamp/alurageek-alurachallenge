@@ -28,6 +28,16 @@ export const Heading = styled.div.attrs<Props>(({ level }) => ({
       font-size: 2rem;
     }
   }
+
+  &.product {
+    font-weight: 500;
+    font-size: 1.375rem;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 3.25rem;
+      line-height: 60px;
+    }
+  }
 `;
 
 Heading.defaultProps = {

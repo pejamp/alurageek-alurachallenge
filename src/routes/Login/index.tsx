@@ -7,8 +7,8 @@ export function Login() {
   return (
     <Container>
       <Title>Iniciar Sessão</Title>
-      <Input name="email" type="email" placeholder="Escreva seu email" />
-      <Input name="senha" type="password" placeholder="Escreva sua senha" />
+      <Input name="email" type="email" placeholder="email" />
+      <Input name="senha" type="password" placeholder="senha" />
       <Box>
         <Button fill>Entrar</Button>
       </Box>

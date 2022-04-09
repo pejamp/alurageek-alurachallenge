@@ -24,8 +24,8 @@ export function Footer() {
         <Flex align={"left"} spacing={"8px"}>
           <Title level={3}>Fale conosco</Title>
           <Flex>
-            <Input name="nome" type="text" placeholder="Escreva seu nome" />
-            <Textarea />
+            <Input name="nome" type="text" placeholder="Nome" />
+            <Textarea placeholder="Escreva sua mensagem..." />
           </Flex>
           <Box>
             <Button fill>Enviar mensagem</Button>
