@@ -3,11 +3,12 @@ import { Container } from "./styled";
 
 interface SectionProps {
   children?: ReactNode;
+  id?: string;
 }
 
-export function Section({ children }: SectionProps) {
+export function Section({ children, id }: SectionProps) {
   return (
-    <Container>
+    <Container id={id}>
       {children}
     </Container>
   );

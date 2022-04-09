@@ -7,6 +7,7 @@ import searchIcon from '../../assets/icons/search.svg';
 import closeIcon from '../../assets/icons/close-line.svg';
 import { useState } from "react";
 import { Link } from "../../components/Link";
+import { Link as LinkRouter } from "react-router-dom";
 
 export function Header() {
   const [visible, setVisible] = useState(false);
@@ -14,7 +15,7 @@ export function Header() {
   return (
     <Wrapper>
       <Flex>
-        <Link goto="/"><Logo /></Link>
+        <LinkRouter to={"/"}><Logo /></LinkRouter>
         <SearchInput invisibleMobile />
       </Flex>
       {visible && 
@@ -24,9 +25,11 @@ export function Header() {
         </BoxSearch>
       }
       <Box>
-        <Button>
-          Login
-        </Button>
+        <LinkRouter to={'/login'}>
+          <Button>
+            Login
+          </Button>
+        </LinkRouter>
       </Box>
       <SearchButton 
         invisibleDesktop

@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import { Button } from "../../components/Button";
 import { Title } from "../../components/Title";
 import { Background, Box, Description, Text } from "./styled";
@@ -13,7 +14,9 @@ export function Banner({ backgroundImage }: BannerProps) {
         <Title level={1} highlight>Dezembro Promocional</Title>
         <Text>Produtos selecionados com 33% de desconto</Text>
         <Box>
-          <Button fill>Ver Consoles</Button>
+          <HashLink to={'#consoles'} smooth>
+            <Button fill>Ver Consoles</Button>
+          </HashLink>
         </Box>
       </Description>
     </Background>

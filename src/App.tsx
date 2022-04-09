@@ -15,10 +15,10 @@ function App() {
   return (
     <Container>
       <Banner backgroundImage={bannerImg} />
-      <Section>
+      <Section id="starwars">
         <SectionHeader>
           <Title level={2} section>Star Wars</Title>
-          <Link goto={"#"} section>
+          <Link section>
             Ver tudo
             <Icon icon={arrowBlueIcon} />
           </Link>  
@@ -27,10 +27,10 @@ function App() {
           {starwars.map((star, index) => <Card key={index} cardImage={star.image} />)}
         </Grid>
       </Section>
-      <Section>
+      <Section id="consoles">
         <SectionHeader>
           <Title level={2} section>Consoles</Title>
-          <Link goto={"#"} section>
+          <Link section>
             Ver tudo
             <Icon icon={arrowBlueIcon} />
           </Link>  
@@ -39,10 +39,10 @@ function App() {
           {consoles.map((console, index) => <Card key={index} cardImage={console.image} />)}
         </Grid>
       </Section>
-      <Section>
+      <Section id="diversos">
         <SectionHeader>
           <Title level={2} section>Diversos</Title>
-          <Link goto={"#"} section>
+          <Link section>
             Ver tudo
             <Icon icon={arrowBlueIcon} />
           </Link>  
