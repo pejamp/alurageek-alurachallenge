@@ -13,12 +13,12 @@ export function Footer() {
         <Flex align={"center"} className={"row"}>
           <Logo footer />
           <Links>
-            <Link goto="#">Quem somos nós</Link>
-            <Link goto="#">Política de privacidade</Link>
-            <Link goto="#">Programa fidelidade</Link>
-            <Link goto="#">Nossas lojas</Link>
-            <Link goto="#">Quero ser franqueado</Link>
-            <Link goto="#">Anuncie aqui</Link>
+            <Link>Quem somos nós</Link>
+            <Link>Política de privacidade</Link>
+            <Link>Programa fidelidade</Link>
+            <Link>Nossas lojas</Link>
+            <Link>Quero ser franqueado</Link>
+            <Link>Anuncie aqui</Link>
           </Links>
         </Flex>
         <Flex align={"left"} spacing={"8px"}>
