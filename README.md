@@ -28,10 +28,12 @@ A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [styled component](https://styled-components.com/)
+- [React Router](https://reactrouter.com/)
+- [react-dropzone](https://react-dropzone.js.org/)
+- [React Router Hash Link](https://react-router-hash-link.rafgraph.dev/)
 
 ## 🚀 Como executar
 
@@ -58,13 +60,14 @@ O app estará disponível no seu browser pelo endereço http://localhost:3000.
 ## ✒️ Author
 
 <a href="https://github.com/pejamp">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/53826489?s=460&u=834aa9912aaaa1464d4635cb9fa7767c64a6e9b3&v=4" width="100px;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/53826489?s=460&u=834aa9912aaaa1464d4635cb9fa7767c64a6e9b3&v=4" width="100px;" alt="profile photo"/>
  <br />
  <sub><b>Pedro Rodrigues</b></sub>
 </a> 
- <br />
+<a href="https://github.com/pejamp"></a>
+<br />
 
-👋🏽 Contact me!
+## Contact me!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Pedro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-j%C3%A2nio-rodrigues-abreu-3a3647176/)](https://www.linkedin.com/in/pedro-j%C3%A2nio-rodrigues-abreu-3a3647176/) 
-[![Gmail Badge](https://img.shields.io/badge/-pedro.roguea@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pedro.roguea@gmail.com)](mailto:pedro.roguea@gmail.com)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-rodrigues-3a3647176/)
+[![gmail](https://img.shields.io/badge/gmail-c14438?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pedro.roguea@gmail.com)
