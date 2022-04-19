@@ -18,7 +18,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/product/:id" element={<Product />} />
           <Route path="/new-product" element={<NewProduct />} />
         </Routes>
         <Footer />

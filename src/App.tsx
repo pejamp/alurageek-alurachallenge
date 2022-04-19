@@ -6,12 +6,27 @@ import { Container, Grid } from "./styles/home";
 import bannerImg from "./assets/banner.png";
 import arrowBlueIcon from "./assets/icons/arrow-blue.svg";
 
-import { starwars, consoles, diversos } from "./api/data";
 import { Title } from "./components/Title";
 import { Link } from "./components/Link";
 import { Icon } from "./components/Icon";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [products, setProducts] = useState([]);
+
+  function getProducts() {
+    const productsUrl = "http://localhost:3004/products";
+
+    fetch(productsUrl)
+      .then(response => response.json())
+      .then(data => setProducts(data))
+      .catch(error => console.error(error))
+  }
+
+  useEffect(() => {
+    getProducts();
+  }, [])
+
   return (
     <Container>
       <Banner backgroundImage={bannerImg} />
@@ -24,7 +39,7 @@ function App() {
           </Link>  
         </SectionHeader>
         <Grid>
-          {starwars.map((star, index) => <Card key={index} cardImage={star.image} />)}
+          {products.map((product: any) => (product.category.id == 1 ? <Card key={product.id} resource={product} /> : null))}
         </Grid>
       </Section>
       <Section id="consoles">
@@ -36,7 +51,7 @@ function App() {
           </Link>  
         </SectionHeader>
         <Grid>
-          {consoles.map((console, index) => <Card key={index} cardImage={console.image} />)}
+          {products.map((product: any) => (product.category.id == 2 ? <Card key={product.id} resource={product} /> : null))}
         </Grid>
       </Section>
       <Section id="diversos">
@@ -48,7 +63,7 @@ function App() {
           </Link>  
         </SectionHeader>
         <Grid>
-          {diversos.map((diverso, index) => <Card key={index} cardImage={diverso.image} />)}
+          {products.map((product: any) => (product.category.id == 3 ? <Card key={product.id} resource={product} /> : null))}
         </Grid>
       </Section>
     </Container>

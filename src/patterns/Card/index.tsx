@@ -2,17 +2,24 @@ import { Container, Image, Price, Text } from "./styled";
 import { Link } from "../../components/Link";
 import { Link as LinkRouter } from "react-router-dom";
 
+interface productProps {
+  id: number;
+  name: string;
+  banner: string;
+  price: number;
+  category: any;
+}
 interface CardProps {
-  cardImage: string;
+  resource: productProps;
 }
 
-export function Card({ cardImage }: CardProps) {
+export function Card({ resource }: CardProps) {
   return (
     <Container>
-      <Image src={cardImage} />
-      <Text>Produto XYZ</Text>
-      <Price>R$ 60,00</Price>
-      <LinkRouter to={"/product"} onClick={() => {window.scrollTo(0, 0)}}>
+      <Image src={resource.banner} />
+      <Text>{resource.name}</Text>
+      <Price>R$ {resource.price}</Price>
+      <LinkRouter to={`/product/${resource.id}`} onClick={() => {window.scrollTo(0, 0)}}>
         <Link section>
           Ver produto
         </Link>

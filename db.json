@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Star Wars"
+    },
+    {
+      "id": 2,
+      "name": "Consoles"
+    },
+    {
+      "id": 3,
+      "name": "Diversos"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Stormtrooper Mug",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/stormtrooper-mug_fyqxhj.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Vader LEGO",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/vader-pilot-lego_h8cix3.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Yoda Statue",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/yoda-statue_rfpd7e.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Stormtrooper Figure",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/stormtrooper-figure_pdion0.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Baby Yoda",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394965/baby-yoda_nqr4t1.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Kylo Figure",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/kylo-figure_y4hebe.jpg",
+      "category": {
+        "id": 1,
+        "name": "Star Wars"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Xbox One white controller",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/xbox-one-white-controller_dcbq8g.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 8,
+      "name": "ps5 white with controller",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/ps5-white-with-controller_ldlf3p.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 9,
+      "name": "nes console",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/nes-console_dg7aps.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 10,
+      "name": "switch controllers",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/switch-controllers_bjbo0h.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 11,
+      "name": "xbox one",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/xbox-one_blliys.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 12,
+      "name": "gameboy",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394965/gameboy_lurx12.jpg",
+      "category": {
+        "id": 2,
+        "name": "Consoles"
+      }
+    },
+    {
+      "id": 13,
+      "name": "atari shirt",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/atari-shirt_n7hlaj.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    },
+    {
+      "id": 14,
+      "name": "nes shirt",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/nes-shirt_ncahqf.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    },
+    {
+      "id": 15,
+      "name": "sonic tails statue",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/sonic-tails-statue_oqc7dt.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    },
+    {
+      "id": 16,
+      "name": "pink clock radio",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/pink-clock-radio_yox1mg.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    },
+    {
+      "id": 17,
+      "name": "ps vr",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394967/ps-vr_ourlvh.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    },
+    {
+      "id": 18,
+      "name": "pikachu plush",
+      "price": 60,
+      "banner": "https://res.cloudinary.com/dsvcvkys8/image/upload/v1650394966/pikachu-plush_txvvfh.jpg",
+      "category": {
+        "id": 3,
+        "name": "Diversos"
+      }
+    }
+  ]
+}
